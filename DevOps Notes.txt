@@ -1,0 +1,77 @@
+DevOps Tutorial
+--------------------------
+
+Git and GitHub
+--------------------------
+ls --> list directory
+
+mkdir --> for making directory/folder.
+
+cd Folder --> Change Directories
+
+git init --> initialise empty git repository in (Particular folder)
+
+ls -a --> list all the files (Hidden also)
+
+touch name.txt --> name.txt file will create.
+
+git status --> (tales about history)
+
+git add name.txt --> maintain the history of name.txt.
+
+git commit -m "name.txt file added" --> commit is command for permanently saved in git and m is message, 
+
+vi name.text --> in that file change some content.
+
+cat name.txt --> all changes are showing after this command.
+
+git add . --> modified the current change.
+
+git restore --staged name.txt -->
+
+git commit -m "names.txt files modified”.
+
+git log --> entire history of the project
+
+rm -rf name.txt --> deleted name.txt
+
+git add . --> modified the current change.
+
+git commit -m "name.txt file deleted”.
+
+git reset #id --> History of all the commit above the #id will be removed.
+
+git stash -->All I changes I don't want to committed and I also don't want to lose this changes (Without making a commit, History, in the project)
+
+touch surname.txt --> this command will be renamed "name.txt" (In same files)
+
+cat name.txt --> The cat command is a utility command in Linux. One of its most common usages is to print the content of a file onto the standard output stream.
+Other than that, the cat command also allows us to write some texts into a file.
+
+git stash pop --> All the changes by stash is revert.
+
+git stash clear --> Those committed that are made which are not committed are gone.
+
+git remote add origin (URL) --> For attach URL from Local Project 
+
+git push origin master --> push the changes to origin URL from branch master. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
